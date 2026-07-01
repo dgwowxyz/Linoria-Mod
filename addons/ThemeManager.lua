@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Default'] 		= { 1, httpService:JSONDecode('{"FontColor":"f5f5f5","MainColor":"1b1714","AccentColor":"ff8c1a","BackgroundColor":"11100f","OutlineColor":"3a2a1b"}') },
+		['Default'] 		= { 1, httpService:JSONDecode('{"FontColor":"e0e0e0","MainColor":"1a1d23","AccentColor":"7c6cf0","BackgroundColor":"121418","OutlineColor":"2a2e38"}') },
 		['Linoria'] 		= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"0055ff","BackgroundColor":"141414","OutlineColor":"323232"}') },
 		['BBot'] 			= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
 		['Fatality']		= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1842","AccentColor":"c50754","BackgroundColor":"191335","OutlineColor":"3c355d"}') },
